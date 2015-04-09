@@ -1,0 +1,301 @@
+	<ScrollView
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/scrollView1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+	
+	<TableLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:shrinkColumns="*"
+	    android:stretchColumns="*" >
+	
+	    <TableRow
+	        android:id="@+id/tableRow1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="@color/blue" >
+	
+	        <TextView
+	            android:id="@+id/TextView01"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@color/blue"
+	            android:text="@string/customer"
+	            android:textAlignment="center"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:layout_span="3"
+	            android:textColor="@color/white"
+	            android:textSize="@dimen/text_24"
+	            android:textStyle="bold" />	
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/tableRow5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <TextView
+	            android:id="@+id/textRFC"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_span="3"
+	            android:text="RFC"
+	            android:layout_marginLeft="10dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/tableRow2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <TextView
+	            android:id="@+id/textName"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_span="3"
+	            android:text="Name"
+	            android:layout_marginLeft="10dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/tableRow4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <TextView
+	            android:id="@+id/textAddress"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_span="3"
+	            android:text="Address"
+	            android:layout_marginLeft="10dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/tableRow3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <TextView
+	            android:id="@+id/textCity"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="City"
+	            android:layout_marginLeft="10dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:id="@+id/textState"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="State"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        <TextView
+	            android:id="@+id/textZIP"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="ZIP"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/tableRow6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <TextView
+	            android:id="@+id/textPhone"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Phone"
+	            android:layout_marginLeft="10dp"
+	            android:layout_span="3"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/tableRow8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <TextView
+	            android:id="@+id/TextView04"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_span="3"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	    </TableRow>
+	
+	    <TableRow
+	        android:id="@+id/tableRow7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="@color/blue" >
+	
+	        <TextView
+	            android:id="@+id/TextView02"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@color/blue"
+	            android:text="@string/details"
+	            android:textAlignment="center"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:layout_span="3"
+	            android:textColor="@color/white"
+	            android:textSize="@dimen/text_24"
+	            android:textStyle="bold" />
+	    </TableRow>
+	
+	    <TextView
+	        android:id="@+id/textDate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Fecha"
+	        android:layout_marginLeft="@dimen/dim_10"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <TextView
+	        android:id="@+id/textFolio"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Folio"
+	        android:layout_marginLeft="@dimen/dim_10"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	    <TextView
+	        android:id="@+id/textDiscount"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Descuento"
+	        android:layout_marginLeft="@dimen/dim_10"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	    <TextView
+	        android:id="@+id/textTotal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Total"
+	        android:layout_marginLeft="@dimen/dim_10"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_span="3"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <TextView
+	        android:id="@+id/TextView03"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_span="3"
+	        android:background="@color/blue"
+	        android:text="@string/observations"
+	        android:textAlignment="center"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="@color/white"
+	        android:textSize="@dimen/text_24"
+	        android:textStyle="bold" />
+	
+	    <TextView
+	        android:id="@+id/textObservations"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Observaciones"
+	        android:layout_marginLeft="10dp"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <TextView
+	        android:id="@+id/TextView05"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_span="3"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	    <TableLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:shrinkColumns="*"  android:stretchColumns="*"
+	        android:id="@+id/TableDetails">
+	
+	        <TableRow
+	            android:id="@+id/tableRow9"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" >
+	
+	            <TextView
+	                android:id="@+id/textView3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="2dp"
+	                android:layout_marginRight="2dp"
+	                android:background="@color/light_blue"
+	                android:gravity="center_horizontal"
+	                android:text="Cod"
+	                android:textAppearance="?android:attr/textAppearanceSmall"
+	                android:textStyle="bold" />
+	
+	            <TextView
+	                android:id="@+id/textView4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="2dp"
+	                android:layout_marginRight="2dp"
+	                android:background="@color/light_blue"
+	                android:gravity="center_horizontal"
+	                android:text="Nombre"
+	                android:textAppearance="?android:attr/textAppearanceSmall"
+	                android:textStyle="bold" />
+	
+	            <TextView
+	                android:id="@+id/textView5"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="2dp"
+	                android:layout_marginRight="2dp"
+	                android:background="@color/light_blue"
+	                android:gravity="center_horizontal"
+	                android:text="Precio"
+	                android:textAppearance="?android:attr/textAppearanceSmall"
+	                android:textStyle="bold" />
+	
+	            <TextView
+	                android:id="@+id/textView6"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="2dp"
+	                android:layout_marginRight="2dp"
+	                android:background="@color/light_blue"
+	                android:gravity="center_horizontal"
+	                android:text="Unid"
+	                android:textAppearance="?android:attr/textAppearanceSmall"
+	                android:textStyle="bold" />
+	
+	            <TextView
+	                android:id="@+id/textView7"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="2dp"
+	                android:layout_marginRight="2dp"
+	                android:background="@color/light_blue"
+	                android:gravity="center_horizontal"
+	                android:text="Total"
+	                android:textAppearance="?android:attr/textAppearanceSmall"
+	                android:textStyle="bold" />
+	
+	        </TableRow>
+	    </TableLayout>
+	
+	</TableLayout>
+	
+</ScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pedidosmovil"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/invoice"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pedidosmovil.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.pedidosmovil.Customer" 
+            android:label="@string/customers" 
+            android:icon="@drawable/users"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity 
+            android:name="com.pedidosmovil.Company" 
+            android:label="@string/companies"
+            android:icon="@drawable/agency" 
+            android:windowSoftInputMode="stateHidden">
+        </activity>        
+        <activity 
+            android:name="com.pedidosmovil.Product" 
+            android:label="@string/products"
+            android:icon="@drawable/products" 
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity 
+            android:name="com.pedidosmovil.Invoice" 
+            android:label="@string/invoices"
+            android:icon="@drawable/invoice" 
+            android:windowSoftInputMode="stateHidden" >
+        </activity>    
+        <activity 
+            android:name="com.pedidosmovil.InvoiceAdd" 
+            android:label="@string/invoices"
+            android:icon="@drawable/invoice" 
+            android:windowSoftInputMode="stateHidden" >
+        </activity>             
+        <activity 
+            android:name="com.pedidosmovil.ItemDetail" 
+            android:label="@string/details" 
+            android:windowSoftInputMode="stateHidden" >
+        </activity> 
+        <activity 
+            android:name="com.pedidosmovil.ItemAdd" 
+            android:label="@string/new_client" 
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity 
+            android:name="com.pedidosmovil.Options" 
+            android:label="@string/new_client" 
+            android:windowSoftInputMode="stateHidden">
+        </activity>
+        <activity 
+            android:name="com.pedidosmovil.Signature" 
+            android:label="@string/new_client" 
+            android:windowSoftInputMode="stateHidden">
+        </activity>  
+        <activity 
+            android:name="com.pedidosmovil.FileExplorer" 
+            android:label="Seleccione un archivo" 
+            android:windowSoftInputMode="stateHidden">
+        </activity>               
+        
+    </application>
+
+</manifest>
